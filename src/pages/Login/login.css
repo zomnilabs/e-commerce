@@ -1,0 +1,68 @@
+
+.login-header{
+    text-align: center;
+    background-color: #D5C0BF;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    
+  }
+  
+  .inputs .input{
+    height: 30px;
+    width: 280px;
+    text-align: left;
+    border: solid 1px #D5C0BF;
+    color: #9B8685;
+    border-radius: 5px;
+    
+ 
+  }
+  .inputs{
+    margin-top: 40px;
+  }
+  
+  .form{
+  border: solid;
+    box-shadow: 1px 5px 10px 1px grey;
+    background: white;
+    padding: 10px 30px;
+    height: 420px;
+  }
+  label{
+    color:#D5C0BF;
+    font-style: bold;
+    font-family: 'Proxima Nova', Courier, monospace;
+
+  }
+  .App-logo{
+    height: 100px;
+    width: 150px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  .button{
+    background-color: #D5C0BF;
+    height: 30px;
+    width: 200px;
+  margin-top: 30px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  font-size: 20px;
+  
+  }
+   p{
+       color:black;
+       font-size: 15px;
+   }
+
+   .register p{
+       color:#D5C0BF;
+       
+   }

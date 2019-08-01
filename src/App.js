@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
-import Header from "./components/header";
+import SignIn from "./pages/SignIn";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 class App extends Component {
@@ -10,10 +10,10 @@ class App extends Component {
     return (
       <Router>
         <div className="All">
-          <Header />
           <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/login" component={Login} />
+            <Route path="/signin" component={SignIn} />
           </Switch>
         </div>
       </Router>
