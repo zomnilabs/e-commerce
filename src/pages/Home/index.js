@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import "antd/dist/antd.css";
 import logo from "../../../src/logo.png";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+import { Divider } from "antd";
 
 function Home() {
   return (
@@ -75,7 +76,11 @@ function Home() {
                 <a href="#">
                   <img
                     class="pic-1"
-                    src="http://bestjquery.com/tutorial/product-grid/demo3/images/img-3.jpeg"
+                    src="https://ae01.alicdn.com/kf/HTB1NnNNajDuK1Rjy1zjq6zraFXaC/Hot-2018-Glitter-Lips-Liquid-Lipstick-lot-Women-Brand-Makeup-Waterproof-Blue-Purple-Wine-Red-Color.jpg"
+                  />
+                  <img
+                    class="pic-2"
+                    src="https://ae01.alicdn.com/kf/HTB1NnNNajDuK1Rjy1zjq6zraFXaC/Hot-2018-Glitter-Lips-Liquid-Lipstick-lot-Women-Brand-Makeup-Waterproof-Blue-Purple-Wine-Red-Color.jpg"
                   />
                 </a>
               </div>
@@ -92,7 +97,11 @@ function Home() {
                 <a href="#">
                   <img
                     class="pic-1"
-                    src="http://bestjquery.com/tutorial/product-grid/demo3/images/img-3.jpeg"
+                    src="https://cdn.shopify.com/s/files/1/0082/2358/8410/products/2019-New-Arrival-women-pumps-shoes-Pointed-Toe-Office-Women-s-Shoes-Fashion-Solid-Flock-High_1000x.jpg?v=1549197481"
+                  />
+                  <img
+                    class="pic-2"
+                    src="https://cdn.shopify.com/s/files/1/0082/2358/8410/products/2019-New-Arrival-women-pumps-shoes-Pointed-Toe-Office-Women-s-Shoes-Fashion-Solid-Flock-High_1000x.jpg?v=1549197481"
                   />
                 </a>
               </div>
@@ -109,7 +118,11 @@ function Home() {
                 <a href="#">
                   <img
                     class="pic-1"
-                    src="http://bestjquery.com/tutorial/product-grid/demo3/images/img-3.jpeg"
+                    src="http://images-global.kikuu.com/upload-productImg-35942228091947723.jpg"
+                  />
+                  <img
+                    class="pic-2"
+                    src="http://images-global.kikuu.com/upload-productImg-35942228091947723.jpg"
                   />
                 </a>
               </div>
@@ -126,7 +139,11 @@ function Home() {
                 <a href="#">
                   <img
                     class="pic-1"
-                    src="http://bestjquery.com/tutorial/product-grid/demo3/images/img-3.jpeg"
+                    src="https://ae01.alicdn.com/kf/HTB1ya0kFmBYBeNjy0Feq6znmFXaE/Casual-Summer-Chiffon-Dress-Women-Clothes-2018-Sexy-Floral-Short-Beach-Dresses-Korean-Elegant-Vestido-De.jpg"
+                  />
+                  <img
+                    class="pic-2"
+                    src="https://ae01.alicdn.com/kf/HTB1ya0kFmBYBeNjy0Feq6znmFXaE/Casual-Summer-Chiffon-Dress-Women-Clothes-2018-Sexy-Floral-Short-Beach-Dresses-Korean-Elegant-Vestido-De.jpg"
                   />
                 </a>
               </div>
@@ -171,7 +188,7 @@ function Home() {
                   <li className="fa fa-star" />
                 </ul>
                 <h3 className="title">
-                  <a href="#">Women's Top</a>
+                  <a href="#">Women's Yellow Top</a>
                 </h3>
                 <div className="price"> $12.60 - $40.53</div>
                 <a className="add-to-cart" href="">
@@ -204,7 +221,7 @@ function Home() {
                   <li className="fa fa-star disable" />
                 </ul>
                 <h3 className="title">
-                  <a href="#">Men's Shirt</a>
+                  <a href="#">Women's Designer Top</a>
                 </h3>
                 <div className="price"> $10.20 </div>
                 <a className="add-to-cart" href="">
@@ -237,7 +254,7 @@ function Home() {
                   <li className="fa fa-star" />
                 </ul>
                 <h3 className="title">
-                  <a href="#">Women's Top</a>
+                  <a href="#">Women's Designer Top</a>
                 </h3>
                 <div className="price"> $12.60 - $40.53</div>
                 <a className="add-to-cart" href="">
@@ -270,7 +287,7 @@ function Home() {
                   <li className="fa fa-star" />
                 </ul>
                 <h3 className="title">
-                  <a href="#">Women's Top</a>
+                  <a href="#">Women's Designer Top</a>
                 </h3>
                 <div className="price"> $12.60 - $40.53</div>
                 <a className="add-to-cart" href="">
@@ -283,6 +300,7 @@ function Home() {
       </div>
       <br />
       <br />
+
       <div className="container">
         <div className="row">
           <div className="col-md-3 col-sm-6">
@@ -309,7 +327,7 @@ function Home() {
                   <li className="fa fa-star" />
                 </ul>
                 <h3 className="title">
-                  <a href="#">Women's Top</a>
+                  <a href="#">Women's Shirt</a>
                 </h3>
                 <div className="price"> $12.60 - $40.53</div>
                 <a className="add-to-cart" href="">
@@ -342,7 +360,7 @@ function Home() {
                   <li className="fa fa-star disable" />
                 </ul>
                 <h3 className="title">
-                  <a href="#">Men's Shirt</a>
+                  <a href="#">Women's Blazer</a>
                 </h3>
                 <div className="price"> $10.20 </div>
                 <a className="add-to-cart" href="">
@@ -375,7 +393,7 @@ function Home() {
                   <li className="fa fa-star" />
                 </ul>
                 <h3 className="title">
-                  <a href="#">Women's Top</a>
+                  <a href="#">Women's Black Top</a>
                 </h3>
                 <div className="price"> $12.60 - $40.53</div>
                 <a className="add-to-cart" href="">
@@ -420,36 +438,100 @@ function Home() {
         </div>
       </div>
 
-      <MDBFooter color="pink" className="font-small pt-4 mt-4">
+      <div className="container">
+        <div className="row2">
+          <div className="columns">
+            <h3 className="icon">
+              <p>
+                <Icon type="lock" />
+              </p>
+            </h3>
+            <div className="Desc">
+              {" "}
+              <p>
+                <strong>Pickup at any Store</strong>
+              </p>
+            </div>
+            <a className="add-to-cart">Free shipping on orders over $65</a>
+          </div>
+          <div className="columns">
+            <h3 className="icon">
+              <p>
+                <Icon type="question-circle" />
+              </p>
+            </h3>
+            <p>
+              {" "}
+              <strong>Free returns</strong>
+            </p>
+            <a className="add-to-cart">30-days free return policy.</a>
+          </div>
+          <div className="columns">
+            <h3 className="icon">
+              <p>
+                <Icon type="lock" />
+              </p>
+            </h3>
+            <p>
+              <strong>Secured payments</strong>
+            </p>
+            <a className="add-to-cart">We accept all major credit cards.</a>
+          </div>
+
+          <div className="columns">
+            <h3 className="icon">
+              <p>
+                <Icon type="question-circle" />
+              </p>
+            </h3>
+            <p>
+              {" "}
+              <strong>Customer service</strong>
+            </p>
+            <a className="add-to-cart">Top notch customer service.</a>
+          </div>
+        </div>
+      </div>
+
+      <MDBFooter className="font-small">
         <MDBContainer fluid className="text-center text-md-left">
           <MDBRow>
             <MDBCol md="6">
-              <h5 className="title">Footer Content</h5>
+              <h5 className="title">Contact Info</h5>
               <p>
-                Here you can use rows and columns here to organize your footer
-                content.
+                <strong>Phone:</strong> (+63) 09123456789
+                <br />
+                <strong>Address:</strong> 1418 Riverwood Drive, Suite 3245
+                Cottonwood, CA 96052, United State
               </p>
+              <p>
+                <strong>We Accept:</strong> 1418 Riverwood Drive, Suite 3245
+                Cottonwood, CA 96052, United State
+              </p>
+              <Icon type="twitter" />
+              <Icon type="instagram" />
+              <Icon type="facebook" />
             </MDBCol>
             <MDBCol md="6">
-              <h5 className="title">Links</h5>
+              <h5 className="title">Get Help</h5>
               <ul>
                 <li className="list-unstyled">
-                  <a href="#!">Link 1</a>
+                  <a href="#!">About</a>
                 </li>
                 <li className="list-unstyled">
-                  <a href="#!">Link 2</a>
+                  <a href="#!">Delivery Information</a>
                 </li>
                 <li className="list-unstyled">
-                  <a href="#!">Link 3</a>
+                  <a href="#!">Sale Terms & Condition</a>
                 </li>
                 <li className="list-unstyled">
-                  <a href="#!">Link 4</a>
+                  <a href="#!">Returns & Refunds</a>
                 </li>
               </ul>
             </MDBCol>
           </MDBRow>
         </MDBContainer>
-        <div className="footer-copyright text-center py-3">
+        <div className="footer-copyright">
           <MDBContainer fluid>
             &copy; {new Date().getFullYear()} Copyright:{" "}
             <a href="https://www.MDBootstrap.com"> MDBootstrap.com </a>

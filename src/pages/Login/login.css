@@ -13,7 +13,7 @@
   }
   
   .inputs .input{
-    height: 30px;
+    height: 30px ;
     width: 280px;
     text-align: left;
     border: solid 1px #D5C0BF;
@@ -31,7 +31,7 @@
     box-shadow: 1px 5px 10px 1px grey;
     background: white;
     padding: 10px 30px;
-    height: 500px;
+    height: 470px !important;
   }
   label{
     color:#D5C0BF;
@@ -46,7 +46,7 @@
     margin-top: 20px;
   }
   .button{
-    background-color: #D5C0BF;
+    background-color: #D5C0BF !important;
     height: 30px;
     width: 200px;
   margin-top: 30px;
@@ -55,6 +55,7 @@
   justify-content: center;
   color:white;
   font-size: 20px;
+  border: solid 1px #D5C0BF !important;
   
   }
    p{
