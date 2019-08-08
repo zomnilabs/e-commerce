@@ -1,14 +1,13 @@
 import React from "react";
-import "./home.css";
+import "./shoes.css";
 import { Icon } from "antd";
-import { Carousel } from "antd";
 import { Link } from "react-router-dom";
 import "antd/dist/antd.css";
 import logo from "../../../src/logo.png";
 import logoG from "../../../src/girly.png";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 
-function Home() {
+function Shoes() {
   return (
     <body>
       <img src={logo} className="logo" alt="logo" />
@@ -35,39 +34,9 @@ function Home() {
           <a href="#welcome-section">MAKE UP & FRAGRANCES</a>
         </div>
       </div>
-      <Carousel autoplay>
-        <div>
-          <img
-            className="img-carousel"
-            src="https://fashionista.com/.image/t_share/MTQwODY4MjI3NDI4MjYzMjg4/hp-business-casualjpg.jpg"
-            alt="img1"
-          />
-        </div>
-        <div>
-          <img
-            className="img-carousel"
-            src="https://freedesignfile.com/upload/2017/06/Fashion-summer-women-and-cosmetics-and-accessories-HD-picture-07.jpg"
-            alt="img1"
-          />
-        </div>
-        <div>
-          <img
-            className="img-carousel"
-            src="https://www.abc.net.au/cm/rimage/9997840-16x9-xlarge.jpg?v=5"
-            alt="img1"
-          />
-        </div>
-        <div>
-          <img
-            className="img-carousel"
-            src="https://mcdn.wallpapersafari.com/medium/49/46/2MEySe.jpg"
-            alt="img1"
-          />
-        </div>
-      </Carousel>
       <div>
         <p className="text1">
-          <strong>Most Popular</strong>
+          <strong>Shoes & Sneakers</strong>
         </p>
       </div>
       <div className="container">
@@ -78,6 +47,203 @@ function Home() {
                 <a href="#">
                   <img
                     class="pic-1"
+                    src="https://image.dhgate.com/0x0/f2/albu/g5/M00/7F/48/rBVaJFia5YmAUSjfAAJUp5yYH_g815.jpg
+                    "
+                    alt=""
+                  />
+                  <img
+                    class="pic-2"
+                    src="https://ae01.alicdn.com/kf/HTB1NnNNajDuK1Rjy1zjq6zraFXaC/Hot-2018-Glitter-Lips-Liquid-Lipstick-lot-Women-Brand-Makeup-Waterproof-Blue-Purple-Wine-Red-Color.jpg"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="product-content">
+                <h3 className="title">
+                  <a href="#">Women's Top</a>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-3 col-sm-6">
+            <div className="product-grid9">
+              <div className="product-image9">
+                <a href="#">
+                  <img
+                    class="pic-1"
+                    src="https://cdn.shopify.com/s/files/1/0082/2358/8410/products/2019-New-Arrival-women-pumps-shoes-Pointed-Toe-Office-Women-s-Shoes-Fashion-Solid-Flock-High_1000x.jpg?v=1549197481"
+                    alt=""
+                  />
+                  <img
+                    class="pic-2"
+                    src="https://cdn.shopify.com/s/files/1/0082/2358/8410/products/2019-New-Arrival-women-pumps-shoes-Pointed-Toe-Office-Women-s-Shoes-Fashion-Solid-Flock-High_1000x.jpg?v=1549197481"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="product-content">
+                <h3 className="title">
+                  <a href="#">Women's Top</a>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-3 col-sm-6">
+            <div className="product-grid9">
+              <div className="product-image9">
+                <a href="#">
+                  <img
+                    class="pic-1"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN9uNTiluDSQ9sbGS9wj-oyUcIwcNpcAzQt86F8DzBjnjK-XVwhQ"
+                    alt=""
+                  />
+                  <img
+                    class="pic-2"
+                    src="http://images-global.kikuu.com/upload-productImg-35942228091947723.jpg"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="product-content">
+                <h3 className="title">
+                  <a href="#">Women's Top</a>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-3 col-sm-6">
+            <div className="product-grid9">
+              <div className="product-image9">
+                <a href="#">
+                  <img
+                    class="pic-1"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwFILymG_CiHTXLQtjCii-FqKDMa97b4qd_BboKE_WXPZDfODQ"
+                    alt=""
+                  />
+                  <img
+                    class="pic-2"
+                    src="https://ae01.alicdn.com/kf/HTB1ya0kFmBYBeNjy0Feq6znmFXaE/Casual-Summer-Chiffon-Dress-Women-Clothes-2018-Sexy-Floral-Short-Beach-Dresses-Korean-Elegant-Vestido-De.jpg"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="product-content">
+                <h3 className="title">
+                  <a href="#">Women's Top</a>
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div className="container">
+        <div className="row">
+          <div className="col-md-3 col-sm-6">
+            <div className="product-grid9">
+              <div className="product-image9">
+                <a href="#">
+                  <img
+                    class="pic-1"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9nlqirmzvvJOXD6qFrxg1u0QWk9N5BS_mxQyQm-CGsEJsdTqqHQ"
+                    alt=""
+                  />
+                  <img
+                    class="pic-2"
+                    src="https://ae01.alicdn.com/kf/HTB1NnNNajDuK1Rjy1zjq6zraFXaC/Hot-2018-Glitter-Lips-Liquid-Lipstick-lot-Women-Brand-Makeup-Waterproof-Blue-Purple-Wine-Red-Color.jpg"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="product-content">
+                <h3 className="title">
+                  <a href="#">Women's Top</a>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-3 col-sm-6">
+            <div className="product-grid9">
+              <div className="product-image9">
+                <a href="#">
+                  <img
+                    class="pic-1"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4kzYUMwEuHCCv3xeDceREso0lLF-iXuNQ8zgghEV5iD_wbHPMZw"
+                    alt=""
+                  />
+                  <img
+                    class="pic-2"
+                    src="https://cdn.shopify.com/s/files/1/0082/2358/8410/products/2019-New-Arrival-women-pumps-shoes-Pointed-Toe-Office-Women-s-Shoes-Fashion-Solid-Flock-High_1000x.jpg?v=1549197481"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="product-content">
+                <h3 className="title">
+                  <a href="#">Women's Top</a>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-3 col-sm-6">
+            <div className="product-grid9">
+              <div className="product-image9">
+                <a href="#">
+                  <img
+                    class="pic-1"
+                    src="http://images-global.kikuu.com/upload-productImg-35942228091947723.jpg"
+                    alt=""
+                  />
+                  <img
+                    class="pic-2"
+                    src="http://images-global.kikuu.com/upload-productImg-35942228091947723.jpg"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="product-content">
+                <h3 className="title">
+                  <a href="#">Women's Top</a>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-3 col-sm-6">
+            <div className="product-grid9">
+              <div className="product-image9">
+                <a href="#">
+                  <img
+                    class="pic-1"
+                    src="https://ae01.alicdn.com/kf/HTB1ya0kFmBYBeNjy0Feq6znmFXaE/Casual-Summer-Chiffon-Dress-Women-Clothes-2018-Sexy-Floral-Short-Beach-Dresses-Korean-Elegant-Vestido-De.jpg"
+                    alt=""
+                  />
+                  <img
+                    class="pic-2"
+                    src="https://ae01.alicdn.com/kf/HTB1ya0kFmBYBeNjy0Feq6znmFXaE/Casual-Summer-Chiffon-Dress-Women-Clothes-2018-Sexy-Floral-Short-Beach-Dresses-Korean-Elegant-Vestido-De.jpg"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="product-content">
+                <h3 className="title">
+                  <a href="#">Women's Top</a>
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div className="container">
+        <div className="row">
+          <div className="col-md-3 col-sm-6">
+            <div className="product-grid9">
+              <div className="product-image9">
+                <a href="#">
+                  <img
+                    class="pic-1"
                     src="https://ae01.alicdn.com/kf/HTB1NnNNajDuK1Rjy1zjq6zraFXaC/Hot-2018-Glitter-Lips-Liquid-Lipstick-lot-Women-Brand-Makeup-Waterproof-Blue-Purple-Wine-Red-Color.jpg"
                     alt=""
                   />
@@ -168,301 +334,6 @@ function Home() {
       </div>
       <br />
       <br />
-      <div>
-        <h1 className="text1">Just For You</h1>
-        <p className="text3">Handpicked pieces for your personal style</p>
-      </div>
-      <div className="container">
-        <div className="row">
-          <div className="col-md-3 col-sm-6">
-            <div className="product-grid9">
-              <div className="product-image9">
-                <a href="#">
-                  <img
-                    class="pic-1"
-                    src="http://bestjquery.com/tutorial/product-grid/demo3/images/img-3.jpeg"
-                    alt=""
-                  />
-                  <img
-                    class="pic-2"
-                    src="http://bestjquery.com/tutorial/product-grid/demo3/images/img-4.jpeg"
-                    alt=""
-                  />
-                </a>
-                <a href="#" className="fa fa-search product-full-view" />
-              </div>
-              <div className="product-content">
-                <ul className="rating">
-                  <li className="fa fa-star" />
-                  <li className="fa fa-star" />
-                  <li className="fa fa-star" />
-                  <li className="fa fa-star" />
-                  <li className="fa fa-star" />
-                </ul>
-                <h3 className="title">
-                  <a href="#">Women's Yellow Top</a>
-                </h3>
-                <div className="price"> $12.60 - $40.53</div>
-                <a className="add-to-cart" href="">
-                  VIEW PRODUCTS
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-3 col-sm-6">
-            <div className="product-grid9">
-              <div className="product-image9">
-                <a href="#">
-                  <img
-                    class="pic-1"
-                    src="http://bestjquery.com/tutorial/product-grid/demo3/images/img-1.jpeg"
-                    alt=""
-                  />
-                  <img
-                    class="pic-2"
-                    src="http://bestjquery.com/tutorial/product-grid/demo3/images/img-2.jpeg"
-                    alt=""
-                  />
-                </a>
-                <a href="#" className="fa fa-search product-full-view" />
-              </div>
-              <div className="product-content">
-                <ul className="rating">
-                  <li className="fa fa-star" />
-                  <li className="fa fa-star" />
-                  <li className="fa fa-star" />
-                  <li className="fa fa-star disable" />
-                  <li className="fa fa-star disable" />
-                </ul>
-                <h3 className="title">
-                  <a href="#">Women's Designer Top</a>
-                </h3>
-                <div className="price"> $10.20 </div>
-                <a className="add-to-cart" href="">
-                  VIEW MORE
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-3 col-sm-6">
-            <div className="product-grid9">
-              <div className="product-image9">
-                <a href="#">
-                  <img
-                    class="pic-1"
-                    src="http://bestjquery.com/tutorial/product-grid/demo3/images/img-5.jpeg"
-                    alt=""
-                  />
-                  <img
-                    class="pic-2"
-                    src="http://bestjquery.com/tutorial/product-grid/demo3/images/img-6.jpeg"
-                    alt=""
-                  />
-                </a>
-                <a href="#" className="fa fa-search product-full-view" />
-              </div>
-              <div className="product-content">
-                <ul className="rating">
-                  <li className="fa fa-star" />
-                  <li className="fa fa-star" />
-                  <li className="fa fa-star" />
-                  <li className="fa fa-star" />
-                  <li className="fa fa-star" />
-                </ul>
-                <h3 className="title">
-                  <a href="#">Women's Designer Top</a>
-                </h3>
-                <div className="price"> $12.60 - $40.53</div>
-                <a className="add-to-cart" href="">
-                  VIEW PRODUCTS
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-3 col-sm-6">
-            <div className="product-grid9">
-              <div className="product-image9">
-                <a href="#">
-                  <img
-                    class="pic-1"
-                    src="http://bestjquery.com/tutorial/product-grid/demo3/images/img-7.jpeg"
-                    alt=""
-                  />
-                  <img
-                    class="pic-2"
-                    src="http://bestjquery.com/tutorial/product-grid/demo3/images/img-8.jpeg"
-                    alt=""
-                  />
-                </a>
-                <a href="#" className="fa fa-search product-full-view" />
-              </div>
-              <div className="product-content">
-                <ul className="rating">
-                  <li className="fa fa-star" />
-                  <li className="fa fa-star" />
-                  <li className="fa fa-star" />
-                  <li className="fa fa-star" />
-                  <li className="fa fa-star" />
-                </ul>
-                <h3 className="title">
-                  <a href="#">Women's Designer Top</a>
-                </h3>
-                <div className="price"> $12.60 - $40.53</div>
-                <a className="add-to-cart" href="">
-                  VIEW PRODUCTS
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <br />
-      <br />
-
-      <div className="container">
-        <div className="row">
-          <div className="col-md-3 col-sm-6">
-            <div className="product-grid9">
-              <div className="product-image9">
-                <a href="#">
-                  <img
-                    class="pic-1"
-                    src="http://bestjquery.com/tutorial/product-grid/demo9/images/img-1.jpg"
-                    alt=""
-                  />
-                  <img
-                    class="pic-2"
-                    src="http://bestjquery.com/tutorial/product-grid/demo9/images/img-2.jpg"
-                    alt=""
-                  />
-                </a>
-                <a href="#" className="fa fa-search product-full-view" />
-              </div>
-              <div className="product-content">
-                <ul className="rating">
-                  <li className="fa fa-star" />
-                  <li className="fa fa-star" />
-                  <li className="fa fa-star" />
-                  <li className="fa fa-star" />
-                  <li className="fa fa-star" />
-                </ul>
-                <h3 className="title">
-                  <a href="#">Women's Shirt</a>
-                </h3>
-                <div className="price"> $12.60 - $40.53</div>
-                <a className="add-to-cart" href="">
-                  VIEW PRODUCTS
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-3 col-sm-6">
-            <div className="product-grid9">
-              <div className="product-image9">
-                <a href="#">
-                  <img
-                    class="pic-1"
-                    src="http://bestjquery.com/tutorial/product-grid/demo4/images/img-7.jpg"
-                    alt=""
-                  />
-                  <img
-                    class="pic-2"
-                    src="http://bestjquery.com/tutorial/product-grid/demo4/images/img-8.jpg"
-                    alt=""
-                  />
-                </a>
-                <a href="#" className="fa fa-search product-full-view" />
-              </div>
-              <div className="product-content">
-                <ul className="rating">
-                  <li className="fa fa-star" />
-                  <li className="fa fa-star" />
-                  <li className="fa fa-star" />
-                  <li className="fa fa-star disable" />
-                  <li className="fa fa-star disable" />
-                </ul>
-                <h3 className="title">
-                  <a href="#">Women's Blazer</a>
-                </h3>
-                <div className="price"> $10.20 </div>
-                <a className="add-to-cart" href="">
-                  READ MORE
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-3 col-sm-6">
-            <div className="product-grid9">
-              <div className="product-image9">
-                <a href="#">
-                  <img
-                    class="pic-1"
-                    src="http://bestjquery.com/tutorial/product-grid/demo5/images/img-1.jpg"
-                    alt=""
-                  />
-                  <img
-                    class="pic-2"
-                    src="http://bestjquery.com/tutorial/product-grid/demo5/images/img-2.jpg"
-                    alt=""
-                  />
-                </a>
-                <a href="#" className="fa fa-search product-full-view" />
-              </div>
-              <div className="product-content">
-                <ul className="rating">
-                  <li className="fa fa-star" />
-                  <li className="fa fa-star" />
-                  <li className="fa fa-star" />
-                  <li className="fa fa-star" />
-                  <li className="fa fa-star" />
-                </ul>
-                <h3 className="title">
-                  <a href="#">Women's Black Top</a>
-                </h3>
-                <div className="price"> $12.60 - $40.53</div>
-                <a className="add-to-cart" href="">
-                  VIEW PRODUCTS
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-3 col-sm-6">
-            <div className="product-grid9">
-              <div className="product-image9">
-                <a href="#">
-                  <img
-                    className="pic-1"
-                    src="http://bestjquery.com/tutorial/product-grid/demo6/images/img-7.jpg"
-                    alt=""
-                  />
-                  <img
-                    className="pic-2"
-                    src="http://bestjquery.com/tutorial/product-grid/demo6/images/img-8.jpg"
-                    alt=""
-                  />
-                </a>
-                <a href="#" className="fa fa-search product-full-view" />
-              </div>
-              <div className="product-content">
-                <ul className="rating">
-                  <li className="fa fa-star" />
-                  <li className="fa fa-star" />
-                  <li className="fa fa-star" />
-                  <li className="fa fa-star" />
-                  <li className="fa fa-star" />
-                </ul>
-                <h3 className="title">
-                  <a href="#">Women's Top</a>
-                </h3>
-                <div className="price"> $12.60 - $40.53</div>
-                <a className="add-to-cart" href="">
-                  VIEW PRODUCTS
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
       <div className="container">
         <div className="row2">
@@ -568,4 +439,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Shoes;

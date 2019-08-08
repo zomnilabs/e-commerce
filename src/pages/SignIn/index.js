@@ -1,6 +1,6 @@
 import React from "react";
 import "./signin.css";
-import { Form, Button } from "antd";
+import { Form, Button, Input, Icon } from "antd";
 import { Link } from "react-router-dom";
 import logo from "../../../src/logo.png";
 
@@ -12,12 +12,42 @@ function SignIn() {
           <img src={logo} className="App-logo" alt="logo" />
           <br />
           <label className="login">SIGN UP</label>
+
           <Form>
-            <div className="inputs">
-              <input className="input" type="text" placeholder=" Username" />
+            <Form.Item>
+              <Input
+                className="fullname"
+                prefix={
+                  <Icon type="user" style={{ color: "rgba(0,0,0,.25)" }} />
+                }
+                placeholder="Fullname"
+              />
               <br />
-              <input className="input" type="text" placeholder="Password" />
-            </div>
+              <Input
+                className="email"
+                prefix={
+                  <Icon type="mail" style={{ color: "rgba(0,0,0,.25)" }} />
+                }
+                placeholder="Email"
+              />
+              <br />
+
+              <Input
+                className="password"
+                prefix={
+                  <Icon type="lock" style={{ color: "rgba(0,0,0,.25)" }} />
+                }
+                type="password"
+                placeholder="Password"
+              />
+              <Input
+                className="confirm"
+                prefix={
+                  <Icon type="lock" style={{ color: "rgba(0,0,0,.25)" }} />
+                }
+                placeholder="Confirm Password"
+              />
+            </Form.Item>
             <Form.Item>
               <Link to="/login">
                 <Button

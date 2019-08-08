@@ -2,23 +2,19 @@
 
 body{
     background-color: #f1f3f4;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-   
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
 }
 .top-nav-bar{
     height: 100px;
     top: 0%;
     position: sticky;
     background: #d5c0bf;
-    margin-bottom: 0px;
+    margin-bottom: 40px;
     border-bottom: 1px solid #d5c0bf; 
     z-index: 2;
     margin-left: 100px
 }
-
-   
-   
-
+ 
 .form-control{
     text-align: center;
     font-size: 20px;
@@ -32,18 +28,15 @@ body{
     border-bottom-right-radius: 15px !important;
     box-shadow: none !important ;
 }
-
 .search-box{
     
     display: inline-flex !important;
     width: 60% ;
     margin-top: 12px;
-    margin-left: 130px;
-   
-    
+    margin-left: 130px;  
 }
 .logo{
-    height: 80px;
+    height: 75px;
     width: 100px;
     margin-right: 100px;
     float: left;
@@ -60,7 +53,7 @@ body{
     position: fixed;
     z-index: 3;
     margin-top: 20px;
-    margin-left: 90px;
+    margin-left: 95px;
 
 }
 .topnav {
@@ -69,8 +62,6 @@ body{
     margin-right: 20px;
     display: flex;
     position: fixed;
-   
-
 }
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -116,26 +107,11 @@ body{
     top: 10%;
     display: flex;
     background: #fff;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
     border-bottom: 1px solid #d5c0bf; 
     z-index: 2;
 }
-.ant-carousel .slick-slide {
-  
-    height: 160px;
-    line-height: 160px;
-    margin-top: 0px;
-    overflow: hidden;
-  }
-  
-  .ant-carousel .slick-slide img {
-    color: black;
-  }
-  .img-carousel{
-     
-height: 700px;
-width: 1815px;
-  }
+
   .text1{
       font-size: 30px;
       text-align: center;
@@ -308,8 +284,6 @@ width: 1815px;
     text-align: center;
 
 }
-
-
 .row2 {
     display: flex;
     margin-bottom: 80px;
@@ -320,11 +294,8 @@ width: 1815px;
   .columns {
     float: left;
     padding-right: 80px;
-    text-align: center;
     margin-left: 50px;
-    
-    border-right: #000 1px solid;
-    
+    border-right: #000 1px solid; 
   }
   
   
