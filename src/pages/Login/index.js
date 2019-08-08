@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../../../src/logo.png";
 import "./login.css";
-import { Form, Button, Icon } from "antd";
+import { Form, Button, Icon, Input } from "antd";
 import { Link } from "react-router-dom";
 
 function LoginForm() {
@@ -13,11 +13,24 @@ function LoginForm() {
           <br />
           <label className="login">LOGIN</label>
           <Form>
-            <div className="inputs">
-              <input className="input" type="text" placeholder=" Username" />
+            <Form.Item>
+              <Input
+                className="username"
+                prefix={
+                  <Icon type="user" style={{ color: "rgba(0,0,0,.25)" }} />
+                }
+                placeholder="Username"
+              />
               <br />
-              <input className="input" type="text" placeholder="Password" />
-            </div>
+              <Input
+                className="password"
+                prefix={
+                  <Icon type="lock" style={{ color: "rgba(0,0,0,.25)" }} />
+                }
+                type="password"
+                placeholder="Password"
+              />
+            </Form.Item>
             <Form.Item>
               <Link to="/">
                 <Button
@@ -30,9 +43,9 @@ function LoginForm() {
                 </Button>
               </Link>
             </Form.Item>
-            <div>
-              <p>Don't have account yet?</p>
-            </div>
+
+            <p>Don't have account yet?</p>
+
             <Link to="/signin">
               <div className="register">
                 <p>Register here.</p>

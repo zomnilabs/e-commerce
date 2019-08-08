@@ -12,26 +12,31 @@
     
   }
   
-  .inputs .input{
-    height: 30px ;
-    width: 280px;
-    text-align: left;
-    border: solid 1px #D5C0BF;
-    color: #9B8685;
-    border-radius: 5px;
-    
- 
+  .username{
+    height: 40px !important;
+    width: 250px !important;
+    text-align: center ;
+    border: solid 1px #D5C0BF  !important;
+   
+    border-radius: 5px !important;
+    margin-top: 20px !important;
   }
-  .inputs{
-    margin-top: 40px;
+  .password{
+    height: 40px !important;
+    width: 250px !important;
+    text-align: center ;
+    border: solid 1px  #D5C0BF  !important;
+    border-radius: 5px !important;
+    margin-top: 5px !important;
   }
   
   .form{
   border: solid;
     box-shadow: 1px 5px 10px 1px grey;
     background: white;
-    padding: 10px 30px;
+    padding: 0px 40px !important;
     height: 470px !important;
+    width: 370px;
   }
   label{
     color:#D5C0BF;
@@ -49,7 +54,7 @@
     background-color: #D5C0BF !important;
     height: 30px;
     width: 200px;
-  margin-top: 30px;
+  margin-top: 10px !important;
   border-radius: 10px;
   align-items: center;
   justify-content: center;
@@ -61,9 +66,11 @@
    p{
        color:black;
        font-size: 15px;
+     
    }
 
    .register p{
        color:#D5C0BF;
+       margin-top: 0%;
        
    }

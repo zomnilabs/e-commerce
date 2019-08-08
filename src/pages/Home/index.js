@@ -5,15 +5,17 @@ import { Carousel } from "antd";
 import { Link } from "react-router-dom";
 import "antd/dist/antd.css";
 import logo from "../../../src/logo.png";
+import logoG from "../../../src/girly.png";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
-import { Divider } from "antd";
 
 function Home() {
   return (
     <body>
+      <img src={logo} className="logo" alt="logo" />
+      <img src={logoG} className="logoG" alt="logo" />
+
       <div className="top-nav-bar">
         <div className="search-box">
-          <img src={logo} className="logo" alt="logo" />
           <input
             type="text"
             className="form-control"
@@ -28,9 +30,10 @@ function Home() {
       </div>
       <div className="top-nav-bar2">
         <div class="topnav2">
-          <a href="#welcome-section">SHOES</a>
+          <Link to="/login">SHOES</Link>
           <a href="#welcome-section">CLOTHING</a>
           <a href="#welcome-section">ACCESSORIES</a>
+          <a href="#welcome-section">MAKE UP & FRAGRANCES</a>
         </div>
       </div>
       <Carousel autoplay>
@@ -77,10 +80,12 @@ function Home() {
                   <img
                     class="pic-1"
                     src="https://ae01.alicdn.com/kf/HTB1NnNNajDuK1Rjy1zjq6zraFXaC/Hot-2018-Glitter-Lips-Liquid-Lipstick-lot-Women-Brand-Makeup-Waterproof-Blue-Purple-Wine-Red-Color.jpg"
+                    alt=""
                   />
                   <img
                     class="pic-2"
                     src="https://ae01.alicdn.com/kf/HTB1NnNNajDuK1Rjy1zjq6zraFXaC/Hot-2018-Glitter-Lips-Liquid-Lipstick-lot-Women-Brand-Makeup-Waterproof-Blue-Purple-Wine-Red-Color.jpg"
+                    alt=""
                   />
                 </a>
               </div>
@@ -98,10 +103,12 @@ function Home() {
                   <img
                     class="pic-1"
                     src="https://cdn.shopify.com/s/files/1/0082/2358/8410/products/2019-New-Arrival-women-pumps-shoes-Pointed-Toe-Office-Women-s-Shoes-Fashion-Solid-Flock-High_1000x.jpg?v=1549197481"
+                    alt=""
                   />
                   <img
                     class="pic-2"
                     src="https://cdn.shopify.com/s/files/1/0082/2358/8410/products/2019-New-Arrival-women-pumps-shoes-Pointed-Toe-Office-Women-s-Shoes-Fashion-Solid-Flock-High_1000x.jpg?v=1549197481"
+                    alt=""
                   />
                 </a>
               </div>
@@ -119,10 +126,12 @@ function Home() {
                   <img
                     class="pic-1"
                     src="http://images-global.kikuu.com/upload-productImg-35942228091947723.jpg"
+                    alt=""
                   />
                   <img
                     class="pic-2"
                     src="http://images-global.kikuu.com/upload-productImg-35942228091947723.jpg"
+                    alt=""
                   />
                 </a>
               </div>
@@ -140,10 +149,12 @@ function Home() {
                   <img
                     class="pic-1"
                     src="https://ae01.alicdn.com/kf/HTB1ya0kFmBYBeNjy0Feq6znmFXaE/Casual-Summer-Chiffon-Dress-Women-Clothes-2018-Sexy-Floral-Short-Beach-Dresses-Korean-Elegant-Vestido-De.jpg"
+                    alt=""
                   />
                   <img
                     class="pic-2"
                     src="https://ae01.alicdn.com/kf/HTB1ya0kFmBYBeNjy0Feq6znmFXaE/Casual-Summer-Chiffon-Dress-Women-Clothes-2018-Sexy-Floral-Short-Beach-Dresses-Korean-Elegant-Vestido-De.jpg"
+                    alt=""
                   />
                 </a>
               </div>
@@ -171,10 +182,12 @@ function Home() {
                   <img
                     class="pic-1"
                     src="http://bestjquery.com/tutorial/product-grid/demo3/images/img-3.jpeg"
+                    alt=""
                   />
                   <img
                     class="pic-2"
                     src="http://bestjquery.com/tutorial/product-grid/demo3/images/img-4.jpeg"
+                    alt=""
                   />
                 </a>
                 <a href="#" className="fa fa-search product-full-view" />
@@ -204,10 +217,12 @@ function Home() {
                   <img
                     class="pic-1"
                     src="http://bestjquery.com/tutorial/product-grid/demo3/images/img-1.jpeg"
+                    alt=""
                   />
                   <img
                     class="pic-2"
                     src="http://bestjquery.com/tutorial/product-grid/demo3/images/img-2.jpeg"
+                    alt=""
                   />
                 </a>
                 <a href="#" className="fa fa-search product-full-view" />
@@ -237,10 +252,12 @@ function Home() {
                   <img
                     class="pic-1"
                     src="http://bestjquery.com/tutorial/product-grid/demo3/images/img-5.jpeg"
+                    alt=""
                   />
                   <img
                     class="pic-2"
                     src="http://bestjquery.com/tutorial/product-grid/demo3/images/img-6.jpeg"
+                    alt=""
                   />
                 </a>
                 <a href="#" className="fa fa-search product-full-view" />
@@ -270,10 +287,12 @@ function Home() {
                   <img
                     class="pic-1"
                     src="http://bestjquery.com/tutorial/product-grid/demo3/images/img-7.jpeg"
+                    alt=""
                   />
                   <img
                     class="pic-2"
                     src="http://bestjquery.com/tutorial/product-grid/demo3/images/img-8.jpeg"
+                    alt=""
                   />
                 </a>
                 <a href="#" className="fa fa-search product-full-view" />
@@ -310,10 +329,12 @@ function Home() {
                   <img
                     class="pic-1"
                     src="http://bestjquery.com/tutorial/product-grid/demo9/images/img-1.jpg"
+                    alt=""
                   />
                   <img
                     class="pic-2"
                     src="http://bestjquery.com/tutorial/product-grid/demo9/images/img-2.jpg"
+                    alt=""
                   />
                 </a>
                 <a href="#" className="fa fa-search product-full-view" />
@@ -343,10 +364,12 @@ function Home() {
                   <img
                     class="pic-1"
                     src="http://bestjquery.com/tutorial/product-grid/demo4/images/img-7.jpg"
+                    alt=""
                   />
                   <img
                     class="pic-2"
                     src="http://bestjquery.com/tutorial/product-grid/demo4/images/img-8.jpg"
+                    alt=""
                   />
                 </a>
                 <a href="#" className="fa fa-search product-full-view" />
@@ -376,10 +399,12 @@ function Home() {
                   <img
                     class="pic-1"
                     src="http://bestjquery.com/tutorial/product-grid/demo5/images/img-1.jpg"
+                    alt=""
                   />
                   <img
                     class="pic-2"
                     src="http://bestjquery.com/tutorial/product-grid/demo5/images/img-2.jpg"
+                    alt=""
                   />
                 </a>
                 <a href="#" className="fa fa-search product-full-view" />
@@ -409,10 +434,12 @@ function Home() {
                   <img
                     className="pic-1"
                     src="http://bestjquery.com/tutorial/product-grid/demo6/images/img-7.jpg"
+                    alt=""
                   />
                   <img
                     className="pic-2"
                     src="http://bestjquery.com/tutorial/product-grid/demo6/images/img-8.jpg"
+                    alt=""
                   />
                 </a>
                 <a href="#" className="fa fa-search product-full-view" />
